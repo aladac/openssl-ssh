@@ -32,9 +32,9 @@ Gem::Specification.new do |spec|
   # Runtime dependencies (base64 extracted from stdlib in Ruby 3.4)
   spec.add_dependency "base64"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rspec", "~> 3.12"
+  spec.add_development_dependency "bundler", "~> 2.5"
+  spec.add_development_dependency "rake", "~> 13.2"
+  spec.add_development_dependency "rspec", "~> 3.13"
   spec.add_development_dependency "simplecov", "~> 0.22"
-  spec.add_development_dependency "standard", "~> 1.40"
+  spec.add_development_dependency "standard", "~> 1.53"
 end

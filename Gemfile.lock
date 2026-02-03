@@ -82,12 +82,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 2.0)
+  bundler (~> 2.5)
   openssl-ssh!
-  rake (~> 13.0)
-  rspec (~> 3.12)
+  rake (~> 13.2)
+  rspec (~> 3.13)
   simplecov (~> 0.22)
-  standard (~> 1.40)
+  standard (~> 1.53)
 
 BUNDLED WITH
    2.7.2
