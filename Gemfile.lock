@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    openssl-ssh (0.2.0)
+    openssl-ssh (0.2.1)
       base64
 
 GEM
