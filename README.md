@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="doc/openssl.png" alt="OpenSSL" height="45"> &nbsp;+&nbsp; <img src="doc/openssh.gif" alt="OpenSSH" height="45"> &nbsp;+&nbsp; <img src="doc/ruby.png" alt="Ruby" height="45">
-
 # OpenSSL::PKey::SSH
 
 **Parse OpenSSH public keys into Ruby OpenSSL::PKey objects**
