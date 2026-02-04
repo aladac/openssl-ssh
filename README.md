@@ -1,13 +1,23 @@
-# ![OpenSSL](https://raw.githubusercontent.com/aladac/openssl-ssh/master/doc/openssl.png) + ![OpenSSH](https://raw.githubusercontent.com/aladac/openssl-ssh/master/doc/openssh.gif) 4 ![Ruby](https://raw.githubusercontent.com/aladac/openssl-ssh/master/doc/ruby.png)
+<div align="center">
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/76e285ab4467fa52bc70/maintainability)](https://codeclimate.com/github/aladac/openssl-ssh/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/76e285ab4467fa52bc70/test_coverage)](https://codeclimate.com/github/aladac/openssl-ssh/test_coverage)
+<img src="doc/openssl.png" alt="OpenSSL" height="45"> &nbsp;+&nbsp; <img src="doc/openssh.gif" alt="OpenSSH" height="45"> &nbsp;+&nbsp; <img src="doc/ruby.png" alt="Ruby" height="45">
 
 # OpenSSL::PKey::SSH
 
+**Parse OpenSSH public keys into Ruby OpenSSL::PKey objects**
+
+[![CI](https://github.com/aladac/openssl-ssh/actions/workflows/ci.yml/badge.svg)](https://github.com/aladac/openssl-ssh/actions/workflows/ci.yml)
+[![Gem Version](https://img.shields.io/gem/v/openssl-ssh)](https://rubygems.org/gems/openssl-ssh)
+[![Ruby](https://img.shields.io/badge/ruby-%3E%3D%203.0-CC342D?logo=ruby&logoColor=white)](https://www.ruby-lang.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
+
+---
+
 This gem introduces `OpenSSL::PKey::SSH` class with the ability to parse **OpenSSH** format public keys and return a correct `OpenSSL::PKey` type object. This is a convenience class used to parse the specific format of the **OpenSSH** public key.
 
-Private **OpenSSH** key strings are forwarderd without modification to `OpenSSL::PKey::RSA.new` and `OpenSSL::Pkey::DSA.new` respectively.
+Private **OpenSSH** key strings are forwarded without modification to `OpenSSL::PKey::RSA.new` and `OpenSSL::PKey::DSA.new` respectively.
 
 ## Installation
 
