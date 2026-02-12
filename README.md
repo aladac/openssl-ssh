@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="openssl-ssh" width="120" />
+  <img src="https://raw.githubusercontent.com/saiden-dev/openssl-ssh/master/logo.png" alt="openssl-ssh" width="120" />
 </p>
 
 <h1 align="center">OpenSSL::PKey::SSH</h1>
