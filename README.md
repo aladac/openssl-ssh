@@ -1,15 +1,19 @@
-<div align="center">
+<p align="center">
+  <img src="logo.png" alt="openssl-ssh" width="120" />
+</p>
 
-# OpenSSL::PKey::SSH
+<h1 align="center">OpenSSL::PKey::SSH</h1>
 
-**Parse OpenSSH public keys into Ruby OpenSSL::PKey objects**
+<p align="center">
+  <strong>Parse OpenSSH public keys into Ruby OpenSSL::PKey objects</strong>
+</p>
 
-[![CI](https://github.com/aladac/openssl-ssh/actions/workflows/ci.yml/badge.svg)](https://github.com/aladac/openssl-ssh/actions/workflows/ci.yml)
-[![Gem Version](https://img.shields.io/gem/v/openssl-ssh)](https://rubygems.org/gems/openssl-ssh)
-[![Ruby](https://img.shields.io/badge/ruby-%3E%3D%203.0-CC342D?logo=ruby&logoColor=white)](https://www.ruby-lang.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-</div>
+<p align="center">
+  <a href="https://github.com/saiden-dev/openssl-ssh/actions/workflows/ci.yml"><img src="https://github.com/saiden-dev/openssl-ssh/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://rubygems.org/gems/openssl-ssh"><img src="https://img.shields.io/gem/v/openssl-ssh" alt="Gem Version"></a>
+  <a href="https://www.ruby-lang.org"><img src="https://img.shields.io/badge/ruby-%3E%3D%203.0-CC342D?logo=ruby&logoColor=white" alt="Ruby"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+</p>
 
 ---
 
